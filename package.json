@@ -1,0 +1,21 @@
+{
+  "name": "discord-invite-tracker",
+  "version": "1.0.0",
+  "description": "Discord bot for tracking invites and rewarding users",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.15.3",
+    "sqlite3": "^5.1.6",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "keywords": ["discord", "bot", "invite", "tracker"],
+  "author": "",
+  "license": "MIT"
+}
